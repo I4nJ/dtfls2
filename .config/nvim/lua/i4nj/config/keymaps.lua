@@ -24,3 +24,8 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- visual block mode
 keymap.set("n", "<leader>vb", "<C-V>", { desc = "Visual block mode" })
+
+-- buffers 
+keymap.set("n", "<leader>bd", "<cmd>bdelete<CR>", { desc = "Close buffer" }) -- close buffer
+keymap.set("n", "<leader>bn", "<cmd>bnext<CR>", { desc = "Go to next buffer" }) -- go to next buffer
+keymap.set("n", "<leader>bp", "<cmd>bprevious<CR>", { desc = "Go to previous buffer" }) -- go to previous buffer
