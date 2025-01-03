@@ -1,0 +1,4 @@
+#pattern  filter=crypt diff=crypt merge=crypt
+\.ssh/config	filter=crypt 	diff=crypt	merge=crypt
+\.ssh/vscd 	filter=crypt 	diff=crypt	merge=crypt
+\.ssh/vscd.pub 	filter=crypt 	diff=crypt	merge=crypt
